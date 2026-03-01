@@ -4,7 +4,8 @@
     padding: 0;
 }
 
-body, html {
+body,
+html {
     height: 100dvh;
     width: 100dvw;
 }
@@ -77,24 +78,24 @@ button:hover {
 
 
 @media (min-width: 300px) and (max-width: 540px) {
-   
+
     #container #campo {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.089);
-}
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 20px;
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.089);
+    }
 
     h1 {
         color: aliceblue;
         margin-bottom: 20px;
         text-align: center;
-}
+    }
 
     #campo .texto {
         display: block;
@@ -107,7 +108,7 @@ button:hover {
         color: white;
         outline: none;
         transition: all 1s;
-}
+    }
 
 
 }
